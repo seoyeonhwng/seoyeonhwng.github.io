@@ -1,7 +1,7 @@
 # Site settings
 title: yellie Devlog
 SEOTitle: yellie Devlog
-header-img: img/bg.HEIC
+header-img: img/bg.jpg
 email: seoyoniee22@gmail.com
 description: "yellie의 개발 이야기"
 keyword: "데이터 엔지니어, 개발자"
@@ -79,7 +79,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "데이터와 파이썬을 좋아합니다"
-sidebar-avatar: /img/profile.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/profile.JPG    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
