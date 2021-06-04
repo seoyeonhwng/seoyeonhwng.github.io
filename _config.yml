@@ -1,10 +1,10 @@
 # Site settings
-title: yellie Devlog
-SEOTitle: yellie Devlog
+title: Yellie's Devlog
+SEOTitle: Yellie's Devlog
 header-img: img/bg.jpg
 email: seoyoniee22@gmail.com
 description: "yellie의 개발 이야기"
-keyword: "데이터 엔지니어, 개발자"
+keyword: "개발자, 데이터 엔지니어"
 url: "https://seoyeonhwng.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
