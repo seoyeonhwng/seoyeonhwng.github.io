@@ -59,7 +59,8 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: yellie
+disqus_username: disqus_lxUE7MgwsK
+disqus_id : https-seoyeonhwng-github-io
 
 # Netease settings
 netease_comment: false
