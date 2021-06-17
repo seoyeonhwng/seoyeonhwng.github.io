@@ -26,7 +26,7 @@ Lambda는 AWS에서 제공하는 **서버리스 컴퓨팅 플랫폼**이다.
 
 예를 들면
 - 서버 띄우지 않고 코드를 실행하고 싶은 경우
-- 평소에는 로그인 + 글쓰기 정도인 웹사이트에서 썸네일을 생성하는 경우 *(특정 행동에만 많은 리소스를 요구하는 )*
+- 평소에는 로그인 + 글쓰기 정도인 웹사이트에서 썸네일을 생성하는 경우 *(특정 행동에만 많은 리소스를 요구하는 경우)*
 - 일주일 동안 이벤트를 진행하여 트래픽이 몰리는 경우
 
 하지만 람다의 단점도 존재한다.
@@ -55,14 +55,12 @@ python을 이용하여 ‘hello world’를 출력하는 람다 함수를 만들
 
 4. 코드 인라인에 원하는 코드 `print('hello world')` 를 추가한다.
 ![image](https://user-images.githubusercontent.com/49056225/121773064-68ef5800-cbb4-11eb-977b-288ae7f7b158.png)  
-우측 상단에 있는 **핸들러**는 람다 함수에게 어디서부터 코드를 실행해! 라고 알려주는 부분으로 `filename.handler-method` 형식으로 작성한다. 예를 들어, 핸들러가 lambda_function.lambda_handler라면 람다 함수가 실행될 때 `lambda_function.py`라는 파일 안에 정의된 `lambda_handler` 함수부터 실행된다.
-</br>
+> 우측 상단에 있는 **핸들러**는 람다 함수에게 어디서부터 코드를 실행해! 라고 알려주는 부분으로 `filename.handler-method` 형식으로 작성한다. 예를 들어, 핸들러가 lambda_function.lambda_handler라면 람다 함수가 실행될 때 `lambda_function.py`라는 파일 안에 정의된 `lambda_handler` 함수부터 실행된다.
 
-5. 아래에 있는 기본 설정에서 실행에 필요한 메모리와 시간을 설정한다.
+
+5. 아래에 있는 기본 설정에서 실행에 필요한 메모리와 실행 시간을 설정한다. 메모리는 256MB, 실행 시간은 최대 5분으로 설정했다.
 ![image](https://user-images.githubusercontent.com/49056225/121773085-8ae8da80-cbb4-11eb-8987-796225fa3a1a.png)
 ![image](https://user-images.githubusercontent.com/49056225/121773092-976d3300-cbb4-11eb-9df7-6af162df5d68.png)
-메모리는 256MB, 실행 시간은 최대 5분으로 설정했다.
-</br>
 
 6. 상단에 `저장` 버튼을 누른다.
 ![image](https://user-images.githubusercontent.com/49056225/121773108-af44b700-cbb4-11eb-8cef-2a8fc8502d66.png)
