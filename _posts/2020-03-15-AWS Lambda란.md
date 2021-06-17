@@ -48,13 +48,11 @@ python을 이용하여 ‘hello world’를 출력하는 람다 함수를 만들
 
 3. 만들고자 하는 람다 함수 이름과 사용 언어를 선택한 후 `함수 생성` 버튼을 누른다.
 ![image](https://user-images.githubusercontent.com/49056225/121773045-4d844d00-cbb4-11eb-8abc-820d010fbd71.png)
-
 함수 이름은 hello_world, 사용 언어는 python 3.7로 선택했다.
 ![image](https://user-images.githubusercontent.com/49056225/121773055-5c6aff80-cbb4-11eb-8aca-ba607abdce73.png)
 
 4. 코드 인라인에 원하는 코드를 추가한다.
 ![image](https://user-images.githubusercontent.com/49056225/121773064-68ef5800-cbb4-11eb-977b-288ae7f7b158.png)
-
 lambda_handler 함수에 hello world 출력문을 추가해주었다.
 
 ### 핸들러
@@ -66,7 +64,6 @@ lambda_handler 함수에 hello world 출력문을 추가해주었다.
 5. 아래에 있는 기본 설정에서 실행에 필요한 메모리와 시간을 설정한다.
 ![image](https://user-images.githubusercontent.com/49056225/121773085-8ae8da80-cbb4-11eb-8987-796225fa3a1a.png)
 ![image](https://user-images.githubusercontent.com/49056225/121773092-976d3300-cbb4-11eb-9df7-6af162df5d68.png)
-
 메모리는 256MB, 실행 시간은 최대 5분으로 설정했다.
 
 6. 상단에 `저장` 버튼을 누른다.
@@ -80,7 +77,6 @@ lambda_handler 함수에 hello world 출력문을 추가해주었다.
 ![image](https://user-images.githubusercontent.com/49056225/121773173-0d719a00-cbb5-11eb-9177-6e34dd5bfdf1.png)
 
 방금 만든 이벤트를 선택하고 `테스트 버튼`을 누르면 로그에 hello world가 출력된 것을 볼 수 있다. 잘 만들었다!
-
 ![image](https://user-images.githubusercontent.com/49056225/121773183-1a8e8900-cbb5-11eb-8dea-12f2e0b5668a.png)
 
 
