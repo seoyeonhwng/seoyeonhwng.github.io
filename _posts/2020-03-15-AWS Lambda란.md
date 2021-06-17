@@ -41,23 +41,18 @@ Lambda는 AWS에서 제공하는 **서버리스 컴퓨팅 플랫폼**이다.
 python을 이용하여 ‘hello world’를 출력하는 람다 함수를 만들어보자.
 
 1. AWS Lambda로 들어간다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773012-2d548e00-cbb4-11eb-89da-0c05a81d1a8d.png)
 
 2. 오른쪽 상단에 `함수 생성` 버튼을 누른다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773021-3c3b4080-cbb4-11eb-9bc8-03d5fd5b5fc1.png)
 
 3. 만들고자 하는 람다 함수 이름과 사용 언어를 선택한 후 `함수 생성` 버튼을 누른다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773045-4d844d00-cbb4-11eb-8abc-820d010fbd71.png)
 
 함수 이름은 hello_world, 사용 언어는 python 3.7로 선택했다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773055-5c6aff80-cbb4-11eb-8aca-ba607abdce73.png)
 
 4. 코드 인라인에 원하는 코드를 추가한다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773064-68ef5800-cbb4-11eb-977b-288ae7f7b158.png)
 
 lambda_handler 함수에 hello world 출력문을 추가해주었다.
@@ -69,14 +64,12 @@ lambda_handler 함수에 hello world 출력문을 추가해주었다.
 `filename.handler-method` 형식으로 작성한다.
 
 5. 아래에 있는 기본 설정에서 실행에 필요한 메모리와 시간을 설정한다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773085-8ae8da80-cbb4-11eb-8987-796225fa3a1a.png)
 ![image](https://user-images.githubusercontent.com/49056225/121773092-976d3300-cbb4-11eb-9df7-6af162df5d68.png)
 
 메모리는 256MB, 실행 시간은 최대 5분으로 설정했다.
 
 6. 상단에 `저장` 버튼을 누른다.
-
 ![image](https://user-images.githubusercontent.com/49056225/121773108-af44b700-cbb4-11eb-8cef-2a8fc8502d66.png)
 
 7. 테스트 이벤트를 생성하여 람다 함수를 실행한다.
