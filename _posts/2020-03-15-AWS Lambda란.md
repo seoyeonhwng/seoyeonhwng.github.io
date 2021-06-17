@@ -55,7 +55,8 @@ python을 이용하여 ‘hello world’를 출력하는 람다 함수를 만들
 
 4. 코드 인라인에 원하는 코드 `print('hello world')` 를 추가한다.
 ![image](https://user-images.githubusercontent.com/49056225/121773064-68ef5800-cbb4-11eb-977b-288ae7f7b158.png)  
-우측 상단에 있는 **핸들러**는 람다 함수에게 어디서부터 코드를 실행해! 라고 알려주는 부분으로 `filename.handler-method` 형식으로 작성한다. 예를 들어, 핸들러가 `lambda_function.lambda_handler`라면 람다 함수가 실행될 때 lambda_function.py라는 파일 안에 정의된 lambda_handler 함수부터 실행된다.
+우측 상단에 있는 **핸들러**는 람다 함수에게 어디서부터 코드를 실행해! 라고 알려주는 부분으로 `filename.handler-method` 형식으로 작성한다. 예를 들어, 핸들러가 lambda_function.lambda_handler라면 람다 함수가 실행될 때 `lambda_function.py`라는 파일 안에 정의된 `lambda_handler` 함수부터 실행된다.
+
 
 5. 아래에 있는 기본 설정에서 실행에 필요한 메모리와 시간을 설정한다.
 ![image](https://user-images.githubusercontent.com/49056225/121773085-8ae8da80-cbb4-11eb-8987-796225fa3a1a.png)
