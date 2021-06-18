@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Unix(Linux, Mac) Screen Command"
-date:       2021-05-01 12:00:00
+date:       2020-06-07 12:00:00
 author:     "yellie"
 header-style: text
 tags:
