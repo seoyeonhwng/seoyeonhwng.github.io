@@ -89,7 +89,7 @@ mkdir -p python/lib/python3.7 && cp -r env/lib/python3.7/site-packages $_
 docker cp [컨테이너ID]:/pillow-layer/python .
 ```
 
-5. AWS Lambda 에서 layer를 생성하고, zip으로 압축한 python 폴더를 업로드한다.
+5) AWS Lambda 에서 layer를 생성하고, zip으로 압축한 python 폴더를 업로드한다.
 ![image](https://user-images.githubusercontent.com/49056225/122503150-e5f65380-d032-11eb-83b2-856cfd1a19f0.png)
 ![image](https://user-images.githubusercontent.com/49056225/122503168-edb5f800-d032-11eb-817c-ce0e83f9b8a7.png)
 Lambda function에서 방금 만든 pillow layer를 추가해서 사용하면 된다. 끝!
