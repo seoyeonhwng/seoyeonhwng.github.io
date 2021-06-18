@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "AWS RDS(PostgreSQL) python으로 연동하기"
-date:       2021-05-01 12:00:00
+date:       2020-05-10 12:00:00
 author:     "yellie"
 header-style: text
 tags:
@@ -14,7 +14,7 @@ AWS 뿌시기 3탄은 **RDS**이다.
 AWS를 이용해서 개발하다보면 DB 연결은 필수라고 생각하여 3번째 주제로 정해보았다. 이번 글에서는 AWS RDS가 무엇인지 살펴본 후, python으로 AWS RDS의 PostgreSQL과 연동해본다.
 
 ## RDS?
-RDS는 AWS에서 제공하는 관리형 RDB(Relational Database) 서비스이다. 지원하는 엔진은 MySQL, PostgreSQL, MariaDB, Oracle, SQL Server가 있다.
+RDS는 AWS에서 제공하는 **관리형 RDB(Relational Database) 서비스**이다. 지원하는 엔진은 MySQL, PostgreSQL, MariaDB, Oracle, SQL Server가 있다.
 
 그러나 이런 엔진들이 클라우드 환경에 최적화 되어있지않다. 이러한 문제를 해결하기 위해 AWS는 자사의 클라우드 환경에 최적화된 새로운 RDB를 만들었다. 
 그것이 바로 **Aurora DB** 이다. Aurora DB는 MySQL 및 PostgreSQL과 호환 가능하다.
