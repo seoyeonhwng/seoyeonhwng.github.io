@@ -20,13 +20,13 @@ AWS Lambda에 코드를 업로드할때 만약 C 또는 C++을 기반으로 한 
 ## 튜토리얼
 튜토리얼로 pillow layer를 만들어서 Lambda layer로 올리는 것 까지 해볼 예정이다.
 
-1. Lambda 실행 환경과 동일한 amazon linux 컨테이너를 실행시킨다.
+1) Lambda 실행 환경과 동일한 amazon linux 컨테이너를 실행시킨다.
 ```
 docker run -it amazonlinux
 ```
 ![image](https://user-images.githubusercontent.com/49056225/122502852-610b3a00-d032-11eb-9696-5a1b065f2fbb.png)
 
-2. 컨테이너에 python 3.7을 설치하고 폴더 안에 가상환경을 만든다.
+2) 컨테이너에 python 3.7을 설치하고 폴더 안에 가상환경을 만든다.
 
 ```
 yum -y upgrade 
@@ -47,7 +47,7 @@ python3 -m venv env
 ```
 ![image](https://user-images.githubusercontent.com/49056225/122502920-797b5480-d032-11eb-824b-ec3d5b0f8d3d.png)
 
-3. 가상환경에 pillow를 설치한다.
+3) 가상환경에 pillow를 설치한다.
 ```
 pip install pillow
 ```
@@ -78,7 +78,7 @@ cp -r tmp/PIL site-packages
 cp -r tmp/Pillow* site-packages
 ```
 
-4. pillow-layer 폴더로 이동한 후 새로 만든 site-packages를 복사한다. **(꼭 python/lib/python3.7/site-packages 경로로 만들어줘야 한다.)**
+4) pillow-layer 폴더로 이동한 후 새로 만든 site-packages를 복사한다. **(꼭 python/lib/python3.7/site-packages 경로로 만들어줘야 한다.)**
 ```
 mkdir -p python/lib/python3.7 && cp -r env/lib/python3.7/site-packages $_
 ```
