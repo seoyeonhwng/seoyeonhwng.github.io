@@ -6,6 +6,7 @@ author:     "yellie"
 header-style: text
 tags:
     - AWS
+    - Lambda
 ---
 
 AWS lambda에 코드를 올리는 방법은 3가지이다.
