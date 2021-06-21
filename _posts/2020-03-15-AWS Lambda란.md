@@ -6,7 +6,6 @@ author:     "yellie"
 header-style: text
 tags:
     - AWS
-    - Lambda
 ---
 
 AWS 뿌시기 1탄은 Lambda다.
