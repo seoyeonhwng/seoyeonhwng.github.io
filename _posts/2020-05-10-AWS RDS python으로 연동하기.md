@@ -6,7 +6,6 @@ author:     "yellie"
 header-style: text
 tags:
     - AWS
-    - RDS
 ---
 
 AWS 뿌시기 3탄은 **RDS**이다.
