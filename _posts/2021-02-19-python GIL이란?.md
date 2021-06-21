@@ -6,7 +6,6 @@ author:     "yellie"
 header-style: text
 tags:
     - python
-    - GIL
 ---
 
 파이썬 언어 자체에 대해 공부하다 보면 GIL을 마주치게 된다. GIL이 무엇인지 대략 알고 있지만, 조금 더 깊게 이해하고 싶은 마음에 [관련 글](https://realpython.com/python-gil/)을 읽고 이해한 바를 정리해보았다.
@@ -147,7 +146,7 @@ GIL은 CPython에만 존재하기 때문에 가능하다면 다른 interpreter�
 GIL의 존재를 처음 알았을때는 GIL이 무엇이고, 왜 파이썬의 악명 높은 단점인지 이해가 잘 되지 않았다. 
 최근에 운영체제를 공부하고 나서 다시 GIL을 공부하니 문장 하나하나가 더 깊이 이해되는 기분이다.
 
-## references
+## reference
 - <https://realpython.com/python-gil/>
 - <https://www.slideshare.net/kthcorp/h32011c6pythonandcloud-111205023210phpapp02?from_m_app=ios>
 
