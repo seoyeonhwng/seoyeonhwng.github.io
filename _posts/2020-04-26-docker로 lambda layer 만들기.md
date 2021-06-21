@@ -7,7 +7,6 @@ header-style: text
 tags:
     - AWS
     - Lambda
-    - Docker
 ---
 
 AWS Lambda에 코드를 업로드할때 만약 C 또는 C++을 기반으로 한 라이브러리가 포함되어 있다면 Lambda는 이 라이브러리를 컴파일 하지 못한다.
