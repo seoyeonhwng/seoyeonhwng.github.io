@@ -6,7 +6,7 @@ header-img: "img/about-bg.jpg"
 multilingual: False
 ---
 
-<!-- {% include multilingual-sel.html %} -->
+{% include multilingual-sel.html %}
 
 <!-- Chinese Version -->
 <!--
@@ -17,7 +17,7 @@ multilingual: False
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {% capture about_en %}{% include about/kor.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
 
